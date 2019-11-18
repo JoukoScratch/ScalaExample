@@ -8,7 +8,7 @@ class TestExample extends WordSpec with Matchers {
     "return sortedList" in {
       val l = List(9, 1, 3)
       val result = Example.mySort(l)
-      result shouldBe(1, 3, 9)
+      result shouldBe List(1, 3, 9)
     }
   }
 }
